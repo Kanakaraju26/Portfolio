@@ -70,6 +70,7 @@
   }
   .contact-info-container {
     margin: 0;
+    padding: 5px;
   }
   .contact-info-container p,
   .nav-links li a {
@@ -99,5 +100,18 @@
   }
   .text-container {
     text-align: justify;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    padding: 10px; 
+    height: max-content;
+  }
+
+  #footerele,
+  #ele,
+  #thanks {
+    padding: 10px; 
   }
 }
